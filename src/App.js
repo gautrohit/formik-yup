@@ -1,9 +1,16 @@
 import React from "react";
-import "./App.css";
-import Registration from "./Registration";
+import Registration from "./components/example-01/Registration";
+import Parent from "./components/example-02/Parent";
 
 function App() {
-  return <Registration />;
+  return (
+    <>
+      {/* example - 01 */}
+      {/* <Registration /> */}
+      {/* example - 02 */}
+      <Parent />
+    </>
+  );
 }
 
 export default App;
